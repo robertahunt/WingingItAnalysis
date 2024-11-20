@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "main.py Predict",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            //"cwd": "PyTorch-VAE/",
+            "args": [
+                "--predict",
+                "--checkpoint=logs/WingingItUNetpp/version_28/checkpoints/last.ckpt",
+                "--dataPath=wings"
+            ]
+        },
+        {
+            "name": "main.py Train",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            //"cwd": "PyTorch-VAE/",
+            "args": [
+                "--train",
+                "--dataPath=wings"
+            ]
+        },
+    ]
+}

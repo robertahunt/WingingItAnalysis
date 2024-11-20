@@ -1,0 +1,14 @@
+*.csv
+*.mp4
+*.avi
+sam2_hiera_l.yaml
+sam2_hiera_large.pt
+*.gif
+semantic_seg/lightning_logs
+semantic_seg/logs
+semantic_seg/wings
+age_pred/lightning_logs
+age_pred/logs
+age_pred/wings
+__pycache__
+.ipynb_checkpoints/
