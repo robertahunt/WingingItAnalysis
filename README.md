@@ -1,4 +1,4 @@
-
+![example_image](examples/Hive01_Sheet_01_slide12_left.png)
 
 This is a collection of notebooks and code for segmenting and extracting values from ~ 1200 images of live bee wings
 and ~4500 slide mounted bee wings. Not all the analysis is done in these notebooks. Crucially any deep learning
