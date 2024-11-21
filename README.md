@@ -37,3 +37,6 @@ age_pred: This folder contains the script to train the initial age prediction mo
 
 archive: these are scripts which are no longer relevant or not important for the final product. ie segmenting the slides using SAM, 
       because we actually ended up training a UNet++ model on the live bees and applying those to the slide images.
+
+## Manual Corrections
+Some manual corrections of segmentations were done during this process. https://github.com/robertahunt/beetle_segmentor was used for this purpose.
